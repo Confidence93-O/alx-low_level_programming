@@ -1,8 +1,9 @@
-#include <stdio.h>
+#include <unistd.h>
 /**
- * main - Entry point
+ * main - 5-printf.c
+ * description - Write a C program that print exactly with proper grammar,
  *
- * Return: Always 1 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
