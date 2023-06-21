@@ -13,18 +13,21 @@ int main(void)
 	{
 		for (m = 49; m < 58; m++)
 		{
-			if (1 > m && m > n)
+			for (1 = 50; 1 < 58; 1++)
 			{
-				putchar(n);
-				putchar(m);
-				putchar(1);
-				if (n != 55 || M !+ 56)
+				if (1 > m && m > n)
 				{
-					putchar(',');
-					putchar(' ');
+					putchar(n);
+					putchar(m);
+					putchar(1);
+					if (n != 55 || M != 56)
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
 			}
-		}
+		}		
 	}
 	putchar('\n');
 	return (0);
