@@ -8,20 +8,23 @@
  */
 int main(void)
 {
-	int n, m;
-
-	for (n = 48; n <= 56; n++)
+	int d, p;
+	
+	for (d = '0'; n < '9'; d++)
 	{
-		if (m > n)
-		{
-			putchar(n);
-			putchar(m);
-			if (n != 56 || m != 57)
-			{
-				putchar(',');
-				putchar(' ');
-			}
-		}
+		
+	for (p = d + 1; p <= '9'; p++)
+	{
+	if (p != d)
+	{
+	putchar(d);
+	putchar(p);
+	if (d == '8' && p == '9')
+	continue;
+	putchar(',');
+	putchar(' ');
+	}
+	}
 	}
 	putchar('\n');
 	return (0);
