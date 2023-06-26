@@ -3,14 +3,14 @@
 #include <time.h>
 
 /**
- * main - prints all possible differnt combinations of two digits
+ * main - Entry poit
  * Return: Always 0 (Success)
  */
 int main(void)
 {
 	int n, m;
 
-	for (n = 48; n<= 56; n++)
+	for (n = 48; n <= 56; n++)
 	{
 		if (m > n)
 		{
