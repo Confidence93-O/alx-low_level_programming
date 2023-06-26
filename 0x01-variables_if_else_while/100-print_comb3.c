@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+include <time.h>
 
 /**
  * main - prints all possible differnt combinations of two digits
