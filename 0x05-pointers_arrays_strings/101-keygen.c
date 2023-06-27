@@ -23,7 +23,7 @@ int main(void)
 		sum += password[index++];
 	}
 
-	password[ndex] = '\0';
+	password[index] = '\0';
 
 	if (sum != 2772)
 	{
@@ -41,7 +41,7 @@ int main(void)
 				break;
 			}
 		}
-		for (index = 0; password[index]; index++)
+		for (index = 0; password[index]; index++;)
 		{
 			if (password[index] >= (33 + diff_half2))
 			{
@@ -51,6 +51,6 @@ int main(void)
 		}
 	}
 
-	printf("%", password);
+	printf("%s", password);
 	return (0);
 }
